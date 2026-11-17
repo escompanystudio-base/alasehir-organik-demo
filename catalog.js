@@ -1,0 +1,30 @@
+// Product names, listed prices and images verified against alasehirorganik.com on 16 November 2026.
+export const products = [
+ {id:'cekirdeksiz-uzum',name:'Çekirdeksiz Kuru Üzüm',category:'kuru-uzum',price:300,old:400,weight:'1 kg',image:'alasehir-kuru-uzum-cekirdeksiz.jpg',description:'1 kg çekirdeksiz kuru üzüm. Tek başına tüketebilir veya tariflerinizde kullanabilirsiniz.',ingredients:'Çekirdeksiz kuru üzüm.',use:'Ara öğünlerde, kahvaltıda, kek ve kurabiyelerinizde kullanabilirsiniz.'},
+ {id:'salamura-yaprak',name:'Salamura Asma Yaprağı',category:'asma-yapragi',price:390,old:550,weight:'1 kg',image:'salamura-yaprak-urun.jpg',description:'1 kg salamura asma yaprağı. Sarma hazırlığında kullanılır; tuzunu kontrol ederek tüketin.',ingredients:'Asma yaprağı, su, tuz.',use:'Sarmadan önce tuzunu kontrol edin; gerekirse yaprakları suda bekletip durulayın.'},
+ {id:'zeytinyagi',name:'Erken Hasat Soğuk Sıkım Zeytinyağı',category:'zeytin-zeytinyagi',price:600,old:800,weight:'1 litre',image:'zeytinyagi.jpg',description:'1 litre erken hasat, soğuk sıkım zeytinyağı. Kahvaltı ve yemeklerde kullanıma uygun.',ingredients:'Zeytinyağı.',use:'Salatalarda, kahvaltıda ve yemeklerinize son dokunuş olarak kullanabilirsiniz.'},
+ {id:'dag-inciri',name:'Dağ İnciri',category:'incir',price:500,old:650,weight:'1 kg',image:'dag-inciri.jpg',description:'1 kg kuru incir. Doğrudan tüketebilir veya tatlılarda kullanabilirsiniz.',ingredients:'Kuru incir.',use:'Cevizle birlikte tüketebilir, tatlı ve kahvaltı tabaklarınıza ekleyebilirsiniz.'},
+ {id:'uzum-pekmezi',name:'Üzüm Pekmezi',category:'tahin-pekmez',price:600,old:900,weight:'1 litre',image:'uzum-pekmezi.jpg',description:'1 litre üzüm pekmezi. Kahvaltıda tek başına veya tahinle birlikte tüketilebilir.',ingredients:'Üzüm pekmezi.',use:'Tahinle karıştırarak veya kahvaltılarda sade olarak tüketebilirsiniz.'},
+ {id:'koy-zeytini',name:'Köy Kırma Yeşil Zeytin',category:'zeytin-zeytinyagi',price:350,old:450,weight:'1 kg',image:'koy-kirma-yesil-zeytin.jpg',description:'1 kg kırma yeşil zeytin. Kahvaltıda veya salatalarda kullanılabilir.',ingredients:'Yeşil zeytin, su, tuz.',use:'Zeytinyağı ve dilediğiniz baharatlarla servis edebilirsiniz.'},
+ {id:'domates-salcasi',name:'Domates Salçası',category:'salca',price:350,old:450,weight:'1 kg',image:'domates-salcasi-1.jpg',description:'1 kg domates salçası. Yemek, çorba ve sos hazırlığında kullanılabilir.',ingredients:'Domates salçası.',use:'Yemeklerde, çorbalarda ve soslarınızda kullanabilirsiniz.'},
+ {id:'chandler-ceviz',name:'İnce Kabuklu Chandler Ceviz',category:'ceviz',price:340,old:450,weight:'1 kg',image:'kabuklu-ceviz.jpg',description:'1 kg kabuklu Chandler ceviz. Kırarak tüketebilir veya tariflerde kullanabilirsiniz.',ingredients:'Kabuklu ceviz. Alerjen: ceviz.',use:'Kabuklarını kırarak tüketin. Salata, tatlı ve kahvaltı tabaklarında değerlendirebilirsiniz.'},
+ {id:'siyah-uzum',name:'Çekirdekli Siyah Kuru Üzüm',category:'kuru-uzum',price:390,old:500,weight:'1 kg',image:'cekirdekli-siyah-kuru-uzum.jpg',description:'1 kg çekirdekli siyah kuru üzüm. Çekirdekli bir üründür.',ingredients:'Çekirdekli siyah kuru üzüm.',use:'Çekirdekli bir üründür. Ara öğünlerinizde porsiyonlayarak tüketebilirsiniz.'},
+ {id:'kornison',name:'Kornişon Turşu',category:'tursu',price:300,old:400,weight:'1 kg',image:'kornison-tursu-satin-al.jpg',description:'1 kg kornişon turşu. Yemeklerin yanında veya sandviçlerde kullanılabilir.',ingredients:'Kornişon turşu. Kesin içerik için ürün ambalajını kontrol edin.',use:'Yemeklerin yanında veya sandviçlerinizin içinde servis edebilirsiniz.'},
+ {id:'kuru-basim',name:'Kuru Basım Asma Yaprağı',category:'asma-yapragi',price:250,old:300,weight:'1 kg',image:'kuru-basim-yaprak.jpg',description:'1 kg kuru basım asma yaprağı. Sarma hazırlığında kullanılabilir.',ingredients:'Asma yaprağı.',use:'Pişirmeden önce yaprakları kontrol edin, yıkayın ve tarifinize göre hazırlayın.'},
+ {id:'tahin',name:'Tahin',category:'tahin-pekmez',price:450,old:600,weight:'1 kg',image:'tahin.jpg',description:'1 kg tahin. Pekmezle karıştırabilir veya sos ve tatlı tariflerinde kullanabilirsiniz.',ingredients:'Susam. Alerjen: susam.',use:'Pekmezle karıştırabilir; humus, sos ve tatlı tariflerinizde kullanabilirsiniz.'},
+ {id:'sele-zeytin',name:'Kuru Sele Zeytin',category:'zeytin-zeytinyagi',price:350,old:450,weight:'1 kg',image:'sele-zeytin.jpg',description:'1 kg kuru sele siyah zeytin. Çekirdekli bir üründür.',ingredients:'Siyah zeytin, tuz.',use:'Kahvaltıda zeytinyağıyla servis edebilirsiniz. Çekirdeklidir.'},
+ {id:'edremit-zeytini',name:'Edremit Kırma Yeşil Zeytin',category:'zeytin-zeytinyagi',price:350,old:450,weight:'1 kg',image:'yesil-kirma-zeytin.jpg',description:'1 kg Edremit kırma yeşil zeytin. Çekirdekli bir üründür.',ingredients:'Yeşil zeytin, su, tuz.',use:'Zeytinyağı ve limonla servis edebilirsiniz. Çekirdeklidir.'},
+ {id:'cennet-hurmasi',name:'Cennet Hurması',category:'cennet-hurmasi',price:600,old:900,weight:'1 kg',image:'cennet-hurmasi.jpg',description:'1 kg cennet hurması. Taze meyve stokları mevsime göre değişebilir.',ingredients:'Cennet hurması.',use:'Olgunlaşma durumuna göre tüketin. Taze meyve stokları mevsime göre değişebilir.'},
+ {id:'hurma-kurusu',name:'Cennet Hurması Kurusu',category:'cennet-hurmasi',price:550,old:750,weight:'1 kg',image:'cennet-hurmasi-kurusu.jpg',description:'1 kg kurutulmuş cennet hurması. Doğrudan tüketilebilir veya kuru meyve tabaklarına eklenebilir.',ingredients:'Kurutulmuş cennet hurması.',use:'Ara öğünde veya kuru meyve tabaklarında servis edebilirsiniz.'}
+];
+export const categories=[
+ {id:'kuru-uzum',name:'Kuru üzüm',image:products[0].image},
+ {id:'asma-yapragi',name:'Asma yaprağı',image:products[1].image},
+ {id:'zeytin-zeytinyagi',name:'Zeytin & zeytinyağı',image:products[2].image},
+ {id:'tahin-pekmez',name:'Tahin & pekmez',image:products[4].image},
+ {id:'incir',name:'Kuru incir',image:products[3].image},
+ {id:'salca',name:'Salça',image:products[6].image},
+ {id:'ceviz',name:'Ceviz',image:products[7].image},
+ {id:'tursu',name:'Turşu',image:products[9].image},
+ {id:'cennet-hurmasi',name:'Cennet hurması',image:products[15].image}
+];
